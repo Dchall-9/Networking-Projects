@@ -1,4 +1,5 @@
 OVERVIEW
+
 This project consists of Inter-VLAN routing with an ACL to deny 1 specified pc from the guests VLAN (30) from interacting with the Management VLAN (20)
 There are 6 PCs, 3 Switches and 1 Router
 There are 3 VLANS, 10 is Personal, 20 is Management and 30 is Guests each VLAN has 2 PCs and 1 Switch
@@ -15,6 +16,7 @@ Show IP Route command was used to verify the router could reach each network
 Extended ACL was confirmed by using ping command on blocked PC
 
 CONCEPTS
+
 Inter-VLAN Routing
 VLANs
 Extended ACLS
@@ -22,4 +24,5 @@ Router-on-a-stick
 Trunking
 
 TROUBLESHOOTING
+
 When there was a issue I would use show-running config and show interfaces trunk to troubleshoot and the ping command on PCs
