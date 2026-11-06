@@ -17,11 +17,11 @@ VERIFICATION
 
 To test Inter-VLAN connectivity I used ping in the command prompt of each PC
 
-Show interfaces trunk command was used to verify each switch and the router trunk port was configured correctly
+show interfaces trunk command was used to verify each switch and the router trunk port was configured correctly
 
-Show VLAN brief command was used to verify each PC has the right VLAN assignment
+show vlan brief command was used to verify each PC has the right VLAN assignment
 
-Show IP Route command was used to verify the router could reach each network
+show ip route command was used to verify the router could reach each network
 
 Extended ACL was confirmed by using ping command on blocked PC
 
