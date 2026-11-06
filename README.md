@@ -25,6 +25,7 @@ Show IP Route command was used to verify the router could reach each network
 
 Extended ACL was confirmed by using ping command on blocked PC
 
+
 CONCEPTS
 
 Inter-VLAN Routing
@@ -36,6 +37,7 @@ Extended ACLS
 Router-on-a-stick
 
 Trunking
+
 
 TROUBLESHOOTING
 
